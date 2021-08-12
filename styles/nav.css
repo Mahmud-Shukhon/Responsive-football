@@ -1,0 +1,38 @@
+a{
+    text-decoration: none;
+}
+
+nav{
+    position: absolute;
+    left: 156px;
+    top: 42px;
+    display: flex;
+    align-items: center;
+}
+
+#menu-items{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.menu-item{
+    margin-right: 30px;
+}
+
+#login{
+    display: flex;
+    height: 44px;
+    width: 123px;
+    color: white;
+    background-color: #E02C6D;
+    align-items: center;
+    justify-content: center;
+    /*padding: 10px 24px 10px 24px;*/
+}
+
+#login a{
+    color: white;
+    margin-left: 10px;
+}
