@@ -17,6 +17,10 @@ nav{
     justify-content: space-between;
 }
 
+#menu-items a{
+    color: white;
+}
+
 .menu-item{
     margin-right: 30px;
 }

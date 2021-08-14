@@ -1,9 +1,10 @@
-/*header{
+header{
     background-color: #2D25A0;
 
-}*/
+}
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #2D25A0;
 }
 
 #top-section{
@@ -13,6 +14,7 @@ body{
     font-size: 16px;
     line-height: 24px;
     display: flex;
+    flex-direction: column;
     
 }
 
@@ -23,15 +25,55 @@ body{
     font-weight: bold;
     font-size: 48px;
     line-height: 60px;
+    color: white;
 }
 
-.pink-button{
-    display: flex;
+#top-banner img{
+    width: 556.01px;
+    height: 438px;
+    position: absolute;
+    top: 183px;
+    right: 140px;
+}
+
+.pink-button, .pink-button a{
     height: 44px;
     width: 123px;
     color: white;
     background-color: #E02C6D;
     align-items: center;
     justify-content: center;
-    margin-left: 450px;    
+    border: none;
+    text-decoration: none;    
+}
+
+#watch-live{
+    position: absolute;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 591px;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+#watch-live a{
+    margin-right: 10px;
+}
+
+/* Player-Section */
+
+#players-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+}
+
+.player img{
+    width: 300px;
+    height: 256px;
 }
