@@ -127,6 +127,7 @@ main{
     width: 469px;
     height: 367px;
     font-size: 16px;
+    margin-bottom: 158px;
 }
 
 #highlight-section h1{
@@ -146,3 +147,34 @@ main{
     height: 427px;
 }
 /* Main-body end */
+
+/*Footer start*/
+
+footer{
+    height: 213px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img{
+    display: flex;
+    align-items: center;
+    width: 430px;
+}
+
+#social-icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 15px;
+}
+
+.icon{
+    font-size: 24px;
+    color: #969BAB;
+
+}
+
+.icon :hover{
+    color: #E02C6D;
+}
