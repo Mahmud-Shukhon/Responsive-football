@@ -1,10 +1,11 @@
 header{
     background-color: #2D25A0;
-
+    height: 650px;
 }
+
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #2D25A0;
+    margin: 0;
 }
 
 #top-section{
@@ -21,7 +22,7 @@ body{
 #top-title{
     position: absolute;
     left: 156px;
-    top: 207px;
+    top: 126px;
     font-weight: bold;
     font-size: 48px;
     line-height: 60px;
@@ -32,7 +33,7 @@ body{
     width: 556.01px;
     height: 438px;
     position: absolute;
-    top: 183px;
+    top: 147px;
     right: 140px;
 }
 
@@ -52,7 +53,7 @@ body{
     width: 168px;
     height: 44px;
     left: 156px;
-    top: 591px;
+    top: 512px;
     font-size: 16px;
     font-weight: 500px;
 }
@@ -61,19 +62,53 @@ body{
     margin-right: 10px;
 }
 
+/* Main-body start */
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
 /* Player-Section */
 
 #players-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
 }
 
 .player{
     width: 330px;
     height: 474px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
 }
 
 .player img{
+    display: flex;
     width: 300px;
     height: 256px;
+    border-radius: 10px;
 }
+
+.player-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-info p{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    top: -25px;
+    text-align: justify;
+}
+/* Main-body end */
