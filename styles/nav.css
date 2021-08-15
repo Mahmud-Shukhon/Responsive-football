@@ -34,6 +34,8 @@ nav{
     align-items: center;
     justify-content: center;
     margin-left: 450px;
+    border: none;
+    border-radius: 5px;
     /*padding: 10px 24px 10px 24px;*/
 }
 
