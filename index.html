@@ -22,9 +22,9 @@
 <body>
     <!-- Header-secction -->
     <header>
-        <nav>
-            <div id="menu-items">
-                <ul id="menu-list">
+        <section id="top-bar">
+            <nav>
+                <ul id="menu-items">
                     <li class="menu-item">
                         <a href="">Home</a>
                     </li>
@@ -41,29 +41,30 @@
                         <a href="">Contact</a>
                     </li>
                 </ul>
-            </div>
-            
-            <button id="login">
+            </nav>
+    
+            <button class="pink-button" id="login">
                 <i class="fas fa-sign-in-alt"></i>
                 <a href="">login</a>
             </button>
-        </nav>
+        </section>
     
         <section id="top-section">
             <div id="top-title">
-                <h1>Conmebol</h1>
-                <h1>Copa America</h1>
-                <h1>2021</h1>
+                <div>
+                    <h1>Conmebol</h1>
+                    <h1>Copa America</h1>
+                    <h1>2021</h1>
+                </div>
+                <button id="watch-live" class="pink-button">
+                    <a href="">Watch Live</a>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
             </div>
     
             <div id="top-banner">
                 <img src="images/banner.png" alt="">
             </div>
-            
-            <button id="watch-live" class="pink-button">
-                <a href="">Watch Live</a>
-                <i class="fas fa-arrow-right"></i>
-            </button>
         </section>
     </header>
 
@@ -167,7 +168,7 @@
             </div>
         </section>
 
-        <section id="highlight-section">
+        <section id="bottom-section">
             <div>
                 <h1>All Highlights Copa America 2021</h1>
                 <p>Watch all CONMEBOL Copa America 2021 matches extended and selective highlight and full match videos here. Watch goal and save videos and exclusive moments via us.</p>
@@ -177,8 +178,22 @@
                     <i class="fas fa-arrow-right"></i>        
                 </button>
             </div>
-            <div id="match-image">
+            
+            <div class="bottom-section-image">
                 <img src="images/match.png" alt="">    
+            </div>
+            
+            <div class="bottom-section-image">
+                <img src="images/football-statistics.jpg" alt="">
+            </div>
+            
+            <div>
+                <h1>Exclusive Football Statostics</h1>
+                <p>We are a unique website and one of the fastest growing in the sports industry, specializing in the in-depth analysis of detailed football data. Provided with unique stats, we compile and create comprehensive analysis on the major European divisions, as well as providing data on over 500 leagues and 15,000 teams.</p>
+                <button id="analyze" class="pink-button">
+                    <a href="">Analyze</a>
+                    <i class="fas fa-microscope"></i>        
+                </button>
             </div>
         </section>
     </main>

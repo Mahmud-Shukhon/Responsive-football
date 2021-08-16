@@ -2,13 +2,14 @@ a{
     text-decoration: none;
 }
 
-nav{
+#top-bar{
     position: absolute;
-    left: 127px;
+    left: 121px;
     top: 42px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    min-width: 100%;
+    width: 80%;
 }
 
 ul li{
@@ -38,22 +39,3 @@ ul li{
     background-color: #E02C6D;
 }
 
-#login{
-    display: flex;
-    justify-self: flex-end;
-    height: 44px;
-    width: 123px;
-    color: white;
-    background-color: #E02C6D;
-    align-items: center;
-    justify-content: center;
-    margin-left: 450px;
-    border: none;
-    border-radius: 5px;
-    /*padding: 10px 24px 10px 24px;*/
-}
-
-#login a{
-    color: white;
-    margin-left: 10px;
-}
