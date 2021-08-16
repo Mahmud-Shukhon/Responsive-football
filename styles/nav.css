@@ -4,11 +4,20 @@ a{
 
 nav{
     position: absolute;
-    left: 156px;
+    left: 127px;
     top: 42px;
     display: flex;
     align-items: center;
+    min-width: 100%;
 }
+
+ul li{
+    list-style: none;
+}
+
+#menu-list{
+    display: flex;
+}  
 
 #menu-items{
     display: flex;
@@ -25,8 +34,13 @@ nav{
     margin-right: 30px;
 }
 
+.menu-items a :hover{
+    background-color: #E02C6D;
+}
+
 #login{
     display: flex;
+    justify-self: flex-end;
     height: 44px;
     width: 123px;
     color: white;
