@@ -20,3 +20,16 @@
     color: white;
     margin-left: 10px;
 }
+
+
+
+
+
+
+
+<div id="social-icons">
+            <a href="https://www.reddit.com/" class="icon"><i class="fab fa-reddit"></i></a>
+            <a href="https://www.instagram.com/" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" class="icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/?lang=en" class="icon"><i class="fab fa-youtube"></i></a>
+        </div>
