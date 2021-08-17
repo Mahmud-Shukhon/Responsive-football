@@ -40,6 +40,7 @@ body{
     height: 438px;
 }
 
+/* Button-styles */
 .pink-button{
     height: 44px;
     width: 168px;
@@ -51,16 +52,17 @@ body{
     border-radius: 5px;
     font-size: 16px;
     font-weight: 500px;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .pink-button a{
     color: white;
-}
-
-#watch-live a{
     margin-right: 10px;
+    margin-left: 10px;
+    height: 100%;
+    width: 100%;
 }
+/* Button-styles */
 
 /* Main-body start */
 
@@ -68,13 +70,15 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: 70px;
     align-items: center;
+    justify-content: center;
 }
 
 /* Player-Section */
 
 #players-section{
+    position: relative;
+    top: 70px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
@@ -118,15 +122,8 @@ main{
 /* Bottom-section */
 
 #bottom-section{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 66px;
-    grid-row-gap: 40px;
-    flex-direction: row;
-    position: relative;
-    right: 282px;
-    width: 469px;
-    height: 367px;
+    display: flex;
+    justify-content: center;
     font-size: 16px;
     margin-bottom: 158px;
 }
@@ -137,13 +134,19 @@ main{
     font-weight: 700;
 }
 
-#watch-now{
-    width: 168px;
-    height: 44px;
-    border-radius: 5px;
+.bottom-section-image img{
+    width: 567px;
+    height: 427px;
 }
 
-.bottom-section-image img{
+#bottom-parts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 66px;
+    grid-row-gap: 40px;
+}
+
+#bottom-parts div{
     width: 567px;
     height: 427px;
 }
@@ -156,7 +159,6 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    display: none;
 }
 
 footer img{

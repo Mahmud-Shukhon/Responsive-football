@@ -35,7 +35,6 @@ ul li{
     margin-right: 30px;
 }
 
-.menu-items a :hover{
-    background-color: #E02C6D;
+#top-bar nav #menu-items .menu-item a:hover {
+    color: #E02C6D;
 }
-
