@@ -35,17 +35,24 @@ body{
     color: white;
 }
 
+#top-title a{
+    width: 80px;
+}
+
 #top-banner img{
     width: 556.01px;
     height: 438px;
 }
 
 /* Button-styles */
+
 .pink-button{
     height: 44px;
     width: 168px;
     color: white;
     background-color: #E02C6D;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     border: none;
@@ -59,8 +66,6 @@ body{
     color: white;
     margin-right: 10px;
     margin-left: 10px;
-    height: 100%;
-    width: 100%;
 }
 /* Button-styles */
 
