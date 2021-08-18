@@ -1,18 +1,59 @@
 @media only screen and (min-width: 1400px)
 {
+    /* Header Section */
     header{
         background-color: #2D25A0;
         height: 650px;
-    }
-    
-    #top-bar{
-        display: flex;
     }
     
     body{
         font-family: 'Poppins', sans-serif;
         margin: 0;
     }
+
+    /* Nav-Styles Start */
+    #nav-mobile{
+        display: none;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    ul li{
+        list-style: none;
+    }
+
+    #top-bar{
+        position: absolute;
+        left: 121px;
+        top: 42px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+    
+    #menu-items{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    #menu-items a{
+        color: white;
+    }
+    
+    .menu-item{
+        margin-right: 30px;
+    }
+    
+    #top-bar nav #menu-items .menu-item a:hover {
+        color: #E02C6D;
+    }
+    /* Nav-Styles End */
     
     #top-section{
         position: absolute;
@@ -204,4 +245,8 @@
         color: #E02C6D;
     }
     
+    .top-title-text h1:hover .top-title-text h1{
+        color: #E02C6D;
+        cursor: pointer;
+    }
 }

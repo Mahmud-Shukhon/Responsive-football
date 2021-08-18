@@ -33,3 +33,9 @@
             <a href="https://www.youtube.com/" class="icon"><i class="fab fa-twitter"></i></a>
             <a href="https://twitter.com/?lang=en" class="icon"><i class="fab fa-youtube"></i></a>
         </div>
+
+
+
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;

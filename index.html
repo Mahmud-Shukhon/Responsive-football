@@ -24,7 +24,7 @@
     <!-- Header-secction -->
     <header>
         <section id="top-bar">
-            <nav>
+            <nav id="nav-pc">
                 <ul id="menu-items">
                     <li class="menu-item">
                         <a target="_blank" href="">Home</a>
@@ -43,9 +43,35 @@
                     </li>
                 </ul>
             </nav>
+
+            <nav id="nav-mobile">
+                <div id="drop-down-container">
+                    <div id="drop-menu-icon">
+                        <i class="fas fa-bars"></i>
+                    </div>
+
+                    <ul id="menu-items">
+                        <li class="menu-item">
+                            <a target="_blank" href="">Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a target="_blank" href="">Clubs</a>
+                        </li>
+                        <li class="menu-item">
+                            <a target="_blank" href="">World Cup 2023</a>
+                        </li>
+                        <li class="menu-item">
+                            <a target="_blank" href="">Upcoming Matches</a>
+                        </li>
+                        <li class="menu-item">
+                            <a target="_blank" href="">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             
             <a target="_blank" href="">
-                <button class="pink-button">
+                <button id="login-button" class="pink-button">
                     <p><i class="fas fa-sign-in-alt"></i> login</p>    
                 </button>
             </a>
@@ -175,7 +201,7 @@
 
         <section id="bottom-section">
             <div id="bottom-parts">
-                <div>
+                <div class="bottom-text">
                     <h1>All Highlights Copa America 2021</h1>
                     <p>Watch all CONMEBOL Copa America 2021 matches extended and selective highlight and full match videos here. Watch goal and save videos and exclusive moments via us.</p>
     
@@ -194,7 +220,7 @@
                     <img src="images/football-statistics.jpg" alt="">
                 </div>
                 
-                <div>
+                <div class="bottom-text">
                     <h1>Exclusive Football Statistics</h1>
                     <p>We are a unique website and one of the fastest growing in the sports industry, specializing in the in-depth analysis of detailed football data. Provided with unique stats, we compile and create comprehensive analysis on the major European divisions, as well as providing data on over 500 leagues and 15,000 teams.</p>
                     
