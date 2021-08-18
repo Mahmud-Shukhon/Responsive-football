@@ -186,8 +186,12 @@
         width: 567px;
         height: 427px;
     }
+
+    #bottom-parts-mobile{
+        display: none;
+    }
     
-    #bottom-parts{
+    #bottom-parts-pc{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 66px;
